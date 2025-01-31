@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+.Contact {
+    width: 920px;
+    height: 540px;
+    margin-top: 898px;
+    background-image: url('../image/Contact.svg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Container {
+    width: 402px;
+    height: 344px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.Title {
+    width: 402px;
+    height: 58px;
+    font-family: "Forum", serif;
+    font-size: 60px;
+}
+.Inputs {
+    width: 350px;
+    height: 124px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.Name {
+    width: 350px;
+    height: 55px;
+    text-align: center;
+    border-radius: 95px;
+    background-color:transparent;
+    backdrop-filter: blur(10px);
+    border: 1px solid white;
+}
+.Name:focus {
+    border: 1px solid white;
+    outline: none;
+}
+.Phone {
+    width: 350px;
+    height: 55px;
+    text-align: center;
+    border-radius: 95px;
+    background-color:transparent;
+    backdrop-filter: blur(10px);
+    border: 1px solid white;
+    margin-top: 10px;
+}
+.Phone:focus {
+    border: 1px solid white;
+    outline: none;
+}
+.Btn {
+    width: 350px;
+    height: 98px;
+    background-image: url('../image/contactBtn.svg');
+}
+.Btn:hover {
+    cursor: pointer;
+    transition: .5s;
+    background-image: url('../image/contactBtnAfter.svg');
+    transform: scale(1.05);
+}

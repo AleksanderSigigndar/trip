@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+.Book {
+    width: 1110px;
+    height: 870px;
+    margin-top: 111px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.Logo {
+    width: 112px;
+    height: 211px;
+    background-image: url('../image/bookLogo.svg');
+    background-size: cover;
+}
+.logoText {
+    position: absolute;
+    font-size: 60px;
+    font-family: "Forum", serif;
+    margin-top: 30px;
+}
+.Content {
+    width: 1110px;
+    height: 633px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.Column {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    width: 540px;
+    height: 100%;
+}
+.Cars {
+    width: 540px;
+    height: 191px;
+    background-image: url('../image/Cars.svg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Forum", serif;
+    color: white;
+    font-size:44px;
+    text-transform: uppercase;
+}
+.Cars:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    color: transparent;
+    transition: .5s;
+}
+.Villas {
+    width: 540px;
+    height: 191px;
+    background-image: url('../image/Villas.svg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Forum", serif;
+    color: white;
+    font-size:44px;
+    text-transform: uppercase;
+}
+.Villas:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    color: transparent;
+    transition: .5s;
+}
+.Helicopter {
+    width: 540px;
+    height: 191px;
+    background-image: url('../image/Helicopter.svg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Forum", serif;
+    color: white;
+    font-size:44px;
+    text-transform: uppercase;
+}
+.Helicopter:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    color: transparent;
+    transition: .5s;
+}
+.Hotels {
+    width: 540px;
+    height: 191px;
+    background-image: url('../image/Hotels.svg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Forum", serif;
+    color: white;
+    font-size:44px;
+    text-transform: uppercase;
+}
+.Hotels:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    color: transparent;
+    transition: .5s;
+}
+.Yachts {
+    width: 540px;
+    height: 191px;
+    background-image: url('../image/Yachts.svg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Forum", serif;
+    color: white;
+    font-size:44px;
+    text-transform: uppercase;
+}
+.Yachts:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    color: transparent;
+    transition: .5s;
+}
+.Jet {
+    width: 540px;
+    height: 191px;
+    background-image: url('../image/Jet.svg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Forum", serif;
+    color: white;
+    font-size:44px;
+    text-transform: uppercase;
+}
+.Jet:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    color: transparent;
+    transition: .5s;
+}

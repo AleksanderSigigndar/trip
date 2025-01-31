@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+.Craft {
+    width: 750px;
+    height: 639px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Logo {
+    width: 350px;
+    height: 670px;
+    background-image: url('../image/craftLogo.svg');
+    block-size: cover;
+}
+.Title {
+    width: 352px;
+    height: 332px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+.titleText {
+    width: 352px;
+    height: 259px;
+    font-family: "Forum", serif;
+    font-size: 40px;
+    text-align: left;
+}
+.titleBtn {
+    width: 214px;
+    height: 38px;
+    background-image: url('../image/craftBtn.svg');
+}
+.titleBtn:hover {
+    cursor: pointer;
+    background-image: url('../image/craftBtnAfter.svg');
+    transition: 0.5s;
+    transform: scale(1.05);
+}

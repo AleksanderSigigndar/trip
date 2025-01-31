@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+.Search {
+    width: 1110px;
+    height: 170px;
+    background-image: url('../image/FindYourJourney.png');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Text {
+
+    height: 50px;
+    width: 1000px;
+    text-align: center;
+    font-size: 25.76px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color:#79655E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    font-family: "Forum", serif;
+    font-style: normal; 
+}
+.Info {
+    
+    width:1010px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.iconDestination {
+    width: 9px;
+    height: 17px;
+    background-image: url('../image/icon_destination.png');
+    background-size: cover !important;
+    position: relative;
+    left: 33px;
+    bottom: 15px;
+}
+.iconTrevelType {
+    width: 16px;
+    height: 16px;
+    background-image: url('../image/icon_travel.png');
+    background-size: cover;
+    position: relative;
+    left: 33px;
+    bottom: 15px;
+}
+.iconWhen {
+    width: 16px;
+    height: 15px;
+    background-image: url('../image/icon_calendar.png');
+    background-size: cover;
+    position: relative;
+    left: 33px;
+    bottom: 15px;
+}
+.iconTrevellers {
+    width: 15px;
+    height: 16px;
+    background-image: url('../image/icon_travellers.png');
+    background-size: cover;
+    position: relative;
+    left: 33px;
+    bottom: 15px;
+}
+.Choice {
+    width:auto;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+.Name {
+    width: auto;
+    height: 25px;
+    color: #79655E;
+    font-family: "Manrope", serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+}
+.List {
+    width: auto;
+    height: 25px;
+    text-align: left;
+}
+.Find {
+    width: 126px;
+    height: 70px;
+    border-radius: 20px;
+    background-color: black;
+    border:none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 24px;
+}
+.Find:hover {
+    cursor: pointer;
+    transition: all 1s;
+    border-radius: 40px;
+    background-color: gainsboro;
+}
+.Span {
+    margin-left: 10px;
+    font-family: "Forum", serif;
+    font-style: normal;
+}
+.Icon {
+    width: 19px;
+    height: 19px;
+}

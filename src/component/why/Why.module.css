@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+.Why {
+    width: 538px;
+    height: 777px;
+    margin-top: 124px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.Block {
+    width: 538px;
+    height: 194px;
+    display: flex;
+}
+.mainText {
+    width: 256px;
+    height: 194px;
+    font-family: "Forum", serif;
+    font-size: 60px;
+    text-align: left;
+}
+.Discribe {
+    width: 254px;
+    height: 194px;
+    text-align: left;
+}
+.Special {
+    width: 256px;
+    height: 194px;
+    font-family: "Forum", serif;
+    font-size: 40px;
+    text-align: left;
+    line-height: 100%;
+}

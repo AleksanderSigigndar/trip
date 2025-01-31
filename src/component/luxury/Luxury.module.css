@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Forum&display=swap");
+.columnF {
+  height: 100%;
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+.columnS {
+  height: 100%;
+  width: auto;
+  display: flex;
+  align-items: end;
+}
+.columnT {
+  height: 100%;
+  width: auto;
+  display: flex;
+  align-items: start;
+}
+.Luxury {
+  width: 1111px;
+  height: 1291px;
+  margin-top: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Column1 {
+  width: 350px;
+  height: 1021px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Column2 {
+  width: 350px;
+  height: 1172px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Column3 {
+  width: 350px;
+  height: 1163px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Title {
+  width: 214px;
+  height: 184px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.titleText {
+  font-size: 60px;
+  font-weight: 300;
+  font-family: "Forum", serif;
+  text-align: left;
+}
+.titleButt {
+  width: 140px;
+  height: 38px;
+  background-image: url("../image/view\ all.svg");
+}
+.titleButt:hover {
+  background-image: url("../image/view\ allAfter.svg");
+  cursor: pointer;
+  transition: 0.5s;
+}
+.newPic {
+  background-image: url("../image/newPic.svg");
+  height: 570px;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.Text {
+  width: 251px;
+  height: 139px;
+  font-size: 36px;
+  color: white;
+  font-family: "Forum", serif;
+}
+.newBtn {
+  width: 135px;
+  height: 257px;
+  background-image: url("../image/newBtn.png");
+  background-size: cover;
+  border-radius: 100%;
+}
+.newBtn:hover {
+  cursor: pointer;
+  transition: 1s;
+}
+.winterPic {
+  width: 350px;
+  height: 570px;
+  background-image: url("../image/winterPic.svg");
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.winterBtn {
+  width: 135px;
+  height: 257px;
+  background-image: url("../image/winterBtn.png");
+  background-size: cover;
+  border-radius: 100%;
+}
+.winterBtn:hover {
+  cursor: pointer;
+  transition: 1s;
+}
+.healthPic {
+  width: 350px;
+  height: 570px;
+  background-image: url("../image/healthPic.svg");
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.healthBtn {
+  width: 135px;
+  height: 257px;
+  background-image: url("../image/healthBtn.png");
+  background-size: cover;
+  border-radius: 100%;
+}
+.healthBtn:hover {
+  cursor: pointer;
+  transition: 1s;
+}
+.extraordinaryPic {
+  width: 350px;
+  height: 570px;
+  background-image: url("../image/extraordinaryPic.svg");
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.extraordinaryBtn {
+  width: 135px;
+  height: 257px;
+  background-image: url("../image/extraordinaryBtn.png");
+  background-size: cover;
+  border-radius: 100%;
+}
+.extraordinaryBtn:hover {
+  cursor: pointer;
+  transition: 1s;
+}
+.crowdPic {
+  width: 350px;
+  height: 570px;
+  background-image: url("../image/crowdPic.svg");
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.crowdBtn {
+  width: 135px;
+  height: 257px;
+  background-image: url("../image/crowdBtn.png");
+  background-size: cover;
+  border-radius: 100%;
+}
+.crowdBtn:hover {
+  cursor: pointer;
+  transition: 1s;
+}

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+.Customize {
+    width: 540px;
+    height: 1120px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.Title {
+    width: 403px;
+    height: 116px;
+    font-size: 60px;
+    font-family: "Forum", serif;
+}
+.Main {
+    width: 513px;
+    height: 786px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mainList {
+    width: 115px;
+    height: 786px;
+    background-image: url('../image/customizeList.svg');
+}
+.mainText {
+    width: 321px;
+    height: 742px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.Block {
+    width: 321px;
+    height: 190px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    font-family: "Forum", serif;
+}
+.blockTitle {
+    width: 253px;
+    height: 75px;
+    text-align: left;
+    font-size: 36px;
+}
+.blockDiscribe {
+    width: 321px;
+    height: 103px;
+    text-align: left;
+}
+.Btn {
+    width: 540px;
+    height: 100px;
+    background-image: url('../image/customizeBtn.svg');
+}
+.Btn:hover {
+    cursor: pointer;
+    transition: .5s;
+    background-image: url('../image/customizeBtnAfter.svg');
+    transform: scale(1.05);
+}

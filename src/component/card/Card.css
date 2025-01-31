@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+.cardBackground1 {
+    background-image: url('../image/winterCard.png');
+    background-size: cover; 
+    width: 350px;
+    height: 570px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    color: white;
+    z-index: 2;
+}
+.cardBackground2 {
+    background-image: url('../image/peruCard.png');
+    background-size: cover;
+     width: 350px;
+    height: 570px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    color: white;
+    z-index: 2;
+}
+.sobaka {
+    border-radius: 10px;
+}
+.sobaka:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.8s;
+    box-shadow: 5px 5px 5px black;
+}
+.cardBackground3 {
+    background-image: url('../image/croariaCard.png');
+    background-size: cover;
+     width: 350px;
+    height: 570px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    color: white;
+    z-index: 2;
+}
+.cardBackground4 {
+    background-image: url('../image/4Card.png');
+    background-size: cover;
+     width: 350px;
+    height: 570px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    color: white;
+    z-index: 2;
+}
+.cardBackground5 {
+    background-image: url('../image/5Card.png');
+    background-size: cover;
+     width: 350px;
+    height: 570px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    color: white;
+    z-index: 2;
+}
+.cardBackground6 {
+    background-image: url('../image/6Card.png');
+    background-size: cover;
+     width: 350px;
+    height: 570px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    color: white;
+    z-index: 2;
+}
+.cardBackground7 {
+    background-image: url('../image/7Card.png');
+    background-size: cover;
+     width: 350px;
+    height: 570px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    color: white;
+    z-index: 2;
+}
+.cardBackground8 {
+    background-image: url('../image/8Card.png');
+    background-size: cover;
+     width: 350px;
+    height: 570px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    color: white;
+    z-index: 2;
+}
+.cardBackground9 {
+    background-image: url('../image/9Card.png');
+    background-size: cover;
+     width: 350px;
+    height: 570px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    color: white;
+    z-index: 2;
+}
+.cardContainer {
+    position: relative;
+    white-space: nowrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 3390px;
+}
+.Space {
+    width: 100%;
+    height: 381px;  
+}
+.Content {
+    display: flex;
+    flex-direction: row;
+    width: 280px;
+    height: auto;
+    justify-content: space-between;
+}
+.Map {
+    width: 9px;
+    height: 11px;
+    background-image: url('../image/Place.png');
+    background-size: cover;
+}
+.Place {
+    width: 54px;
+    height: 16px;
+    font-size: 12px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.Name {
+    width: 251px;
+    height: auto;
+    color: white;
+    font-family: "Forum", serif;
+    font-style: normal;
+    font-size: 36px;
+    text-align: left;
+    font-family: "Manrope", serif;
+}
+.Price {
+    width: 80px;
+    height: 40px;
+    margin-top: 30px;
+}
+.Cost {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: "Forum", serif;
+    font-style: normal;     
+    font-size: 24px;
+}
+.From {
+    width: 33px;
+    height: 16px;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: "Manrope", serif;
+}
+.Rate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Rating {
+    width: 18px;
+    height: 119px;
+    background-image: url('../image/Rating.png');
+    background-size: cover;
+}
+.Arrow {
+    width: 106px;
+    height: 106px;
+    background-color: #79655E;
+    border:none;
+    transform: rotate(45deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 455px;
+    left:1075px;
+}
+.arrowRight {
+    transform: rotate(-45deg);
+}
+.arrowLeft {
+    transform: rotate(135deg);
+}
+.Arrow:hover {
+    background-color: #a78377;
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 5px 5px 5px black;
+}
+.arrowReverse {
+    width: 106px;
+    height: 106px;
+    background-color: #79655E;
+    border:none;
+    transform: rotate(45deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 350px;
+    right: 150px;
+}
+.arrowReverse:hover {
+    background-color: #a78377;
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 5px 5px 5px black;
+}

@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+.Exp {
+    height: 851px;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.Back {
+    height: 211.77px;
+    width: 112px;
+    background-image: url('../image/Group\ 380.png');
+    background-size: cover;
+}
+.mainText {
+    width: 297px;
+    height: 117px;
+    z-index: 1;
+    position: absolute;
+    margin-top: 40px;
+    font-family: "Forum", serif;
+    font-style: normal; 
+    font-size: 60px;
+}
+.Contain {
+    height: 629px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.List {
+    width: 948px;
+    height: 36px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    background-size: cover;
+}
+.World {
+    height: 24px;
+    width: 55px;
+    font-family: "Forum", serif;
+    font-style: normal; 
+    color: #79655E;
+    font-size: 24px;
+}
+.World:hover{
+    cursor: pointer;
+    transition: 0.2s;
+    background-image: url('../image/WorldAfter.png');
+    background-size: cover;
+    height: 36px;
+    color: transparent;
+}
+.Africa {
+    height: 24px;
+    width: 57px;
+    font-family: "Forum", serif;
+    font-style: normal; 
+    color: #79655E;
+    font-size: 24px;
+}
+.Africa:hover{
+    cursor: pointer;
+    transition: 0.2s;
+    background-image: url('../image/AfricaAfter.png');
+    background-size: cover;
+    height: 36px;
+    color: transparent;
+}
+.Asia {
+    height: 24px;
+    width: 42px;
+    font-family: "Forum", serif;
+    font-style: normal; 
+    color: #79655E;
+    font-size: 24px;
+}
+.Asia:hover{
+    cursor: pointer;
+    transition: 0.2s;
+    background-image: url('../image/AsiaAfter.png');
+    background-size: cover;
+    height: 36px;
+    color: transparent;
+}
+.Europe {
+    height: 24px;
+    width: 69px;
+    font-family: "Forum", serif;
+    font-style: normal; 
+    color: #79655E;
+    font-size: 24px;
+}
+.Europe:hover{
+    cursor: pointer;
+    transition: 0.2s;
+    background-image: url('../image/EuropeAfter.png');
+    background-size: cover;
+    height: 36px;
+    color: transparent;
+}
+.northAmerica {
+    height: 24px;
+    width: 142px;
+    font-family: "Forum", serif;
+    font-style: normal; 
+    color: #79655E;
+    font-size: 24px;
+}
+.northAmerica:hover{
+    cursor: pointer;
+    transition: 0.2s;
+    background-image: url('../image/North\ AmericaAfter.png');
+    background-size: cover;
+    height: 36px;
+    color: transparent;
+}
+.southAmerica {
+    height: 24px;
+    width: 143px;
+    font-family: "Forum", serif;
+    font-style: normal; 
+    color: #79655E;
+    font-size: 24px;
+}
+.southAmerica:hover{
+    cursor: pointer;
+    transition: 0.2s;   
+    background-image: url('../image/South\ AmericaAfter.svg');
+    background-size: cover;
+    height: 36px;
+    color: transparent;
+}
+.Antarctica {
+    height: 24px;
+    width: 98px;
+    font-family: "Forum", serif;
+    font-style: normal; 
+    color: #79655E;
+    font-size: 24px;
+}
+.Antarctica:hover{
+    cursor: pointer;
+    transition: 0.2s;
+    background-image: url('../image/AntarcticaAfter.png');
+    background-size: cover;
+    height: 36px;
+    color: transparent;
+}
+.Australia {
+    height: 24px;
+    width: 86px;
+    font-family: "Forum", serif;
+    font-style: normal; 
+    color: #79655E;
+    font-size: 24px;
+}
+.Australia:hover{
+    cursor: pointer;
+    transition: 0.2s;
+    background-image: url('../image/AustraliaAfter.png');
+    background-size: cover;
+    height: 36px;
+    color: transparent;
+}
+.Slik {
+    height: 570px;
+    width: 100%;
+    padding-left: 440px;
+}

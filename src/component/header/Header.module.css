@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+.Header {
+    width: 1348px;
+    height: 63.56px;
+    margin-top:24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Forum", serif;
+    font-style: normal;
+}
+.Logo {
+    width: 121px;
+    height: 64px;
+    background-image: url('../image/logo.png'); 
+    background-size: cover;
+}
+.Buttons {
+    width: 754px;
+    height: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.callMeBack {
+    width: 156px;
+    height: 56px;
+    background-image: url('../image/button\ call\ me.png');
+    background-size: cover;
+    border: none;
+    background-color: transparent;
+}
+.callMeBack:hover {
+    transition: all 0.5s;
+    cursor: pointer;
+    background-image: url('../image/button\ call\ me2.png');
+    transform: scale(1.05);
+}
+.callMeBack:active {
+    transition: all 0.5s;
+    cursor: pointer;
+    background-image: url('../image/button\ call\ me.png');
+    transform: scale(1.05);
+}
+.Butt {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 550;
+    letter-spacing: 1.5px;
+}
+.buttLink{
+    text-decoration: none;
+    color: black;
+}
+.buttLink:hover {
+    cursor: pointer;
+    color:antiquewhite;
+    transition: all 0.5s;
+}
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+.Modal {
+    width: 920px;
+    height: 540px;
+    background-image:url('../image/Contact.svg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(250, 235, 215, 0.6);
+    border-radius: 20px;
+}
+.modalTitle {
+    width: 550px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modalLogo {
+    width: 121px;
+    height: 64px;
+    background-image: url('../image/logo.png'); 
+    background-size: cover;
+    margin-top: 20px;
+}
+.modalInputs {
+    width: 100%;
+    height: 536px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.modalText {
+    font-family: "Forum", serif;
+    font-size: 40px;
+    width: 500px;
+}
+.Fio {
+    margin-bottom: 40px;
+    margin-top: 20px;
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+    border:1px solid lightgray;
+    padding: 10px;
+}
+.Fio:focus {
+    border: 1px solid white;
+    outline: none;
+}
+.Num {
+    margin-top: 20px;
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+    border:1px solid lightgray;
+    padding: 10px;
+}
+.Num:focus {
+    border: 1px solid white;
+    outline: none;
+}
+.modalSend {
+    width: 156px;
+    height: 56px;
+    background-image: url('../image/modalSend.svg');
+    margin-top: 20px;
+}
+.modalSend:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    background-image: url('../image/modalSendAfter.svg');
+}
