@@ -12,11 +12,10 @@
     width: 112px;
     height: 211px;
     background-image: url('../image/bookLogo.svg');
-    background-size: cover;
 }
 .logoText {
     position: absolute;
-    font-size: 60px;
+    font-size: 30px;
     font-family: "Forum", serif;
     margin-top: 30px;
 }
