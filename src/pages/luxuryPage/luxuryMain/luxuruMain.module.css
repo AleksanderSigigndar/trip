@@ -1,0 +1,9 @@
+.Main {
+    text-align: center;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    width: 100%;
+    height:10200px;
+    background-color: #C9C8D8;
+  }
