@@ -22,7 +22,7 @@ const Header = () => {
         <div className={s.Butt}><Link className={s.buttLink} to="/Luxury">Client Area</Link></div>
       </div>
       <button onClick={openModel} className={s.callMeBack}></button>
-      {isOpenModel &&(
+      {isOpenModel  &&(
         <div className={s.modalOverlay}>
           <div className={s.Modal}>
             <div className={s.modalTitle}>

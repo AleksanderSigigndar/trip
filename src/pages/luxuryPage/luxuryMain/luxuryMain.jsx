@@ -1,11 +1,15 @@
 import React from 'react'
 import Header from '../../../component/header/Header'
-import s from './luxuruMain.module.css'
+import Search from '../luxurySearch/luxurySearch'
+import s from './luxuryMain.module.css'
 
 const luxuryMain = () => {
   return (
     <div className={s.Main}>
+      <div className={s.Container}>
         <Header />
+        <Search />
+      </div>
     </div>
   )
 }

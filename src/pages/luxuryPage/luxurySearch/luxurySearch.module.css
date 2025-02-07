@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+.Search {
+    width: 1110px;
+    height: 265px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 5px;
+}
+.Main {
+    width: 1110px;
+    height: 170px;
+    background-image: url('../../img/find\ journey.svg');
+    background-size: cover;
+}
+.Title {
+    width: 955px;
+    height: 71px;
+    font-size: 60px;
+    font-weight: 300;
+    font-family: Forum;
+    text-align: center;
+}
