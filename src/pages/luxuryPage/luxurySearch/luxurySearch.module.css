@@ -13,6 +13,10 @@
     height: 170px;
     background-image: url('../../img/find\ journey.svg');
     background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
 }
 .Title {
     width: 955px;
@@ -21,4 +25,83 @@
     font-weight: 300;
     font-family: Forum;
     text-align: center;
+}
+.Info {
+    width:1016px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-top: 40px;
+}
+.Tours{
+    width:256px;
+    height: 48px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    margin-right:25px;
+    margin-left:35px;
+}
+.Type{
+    width:88px;
+    height: 48px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    margin-right:32px;
+}
+.When{
+    width: 223px;
+    height: 48px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    margin-right:30px;
+}
+.Name {
+    width: auto;
+    height: 25px;
+    color: #79655E;
+    font-family: "Manrope", serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+}
+.List {
+    width: auto;
+    height: 25px;
+    text-align: left;
+}
+.Find {
+    width: 126px;
+    height: 70px;
+    border-radius: 20px;
+    background-color: black;
+    border:none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 24px;
+}
+.Find:hover {
+    cursor: pointer;
+    transition: all 1s;
+    border-radius: 40px;
+    background-color: gainsboro;
+}
+.Span {
+    margin-left: 10px;
+    font-family: "Forum", serif;
+    font-style: normal;
+}
+.Pick {
+    width: 322px;
+    height: 26px;
+    border: 1px solid black;
 }
