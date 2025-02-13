@@ -26,7 +26,7 @@
 .callMeBack {
     width: 156px;
     height: 56px;
-    background-image: url('../image/button\ call\ me.png');
+    background-image: url('../image/button\ call\ me.svg');
     background-size: cover;
     border: none;
     background-color: transparent;
@@ -34,13 +34,13 @@
 .callMeBack:hover {
     transition: all 0.5s;
     cursor: pointer;
-    background-image: url('../image/button\ call\ me2.png');
+    background-image: url('../image/button\ call\ me2.svg');
     transform: scale(1.05);
 }
 .callMeBack:active {
     transition: all 0.5s;
     cursor: pointer;
-    background-image: url('../image/button\ call\ me.png');
+    background-image: url('../image/button\ call\ me.svg');
     transform: scale(1.05);
 }
 .Butt {
@@ -83,11 +83,11 @@
     border-radius: 20px;
 }
 .modalTitle {
-    width: 550px;
+    width: 750px;
     height: 75px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 .modalLogo {
     width: 121px;
@@ -95,6 +95,11 @@
     background-image: url('../image/logo.png'); 
     background-size: cover;
     margin-top: 20px;
+}
+.modalCLose {
+    width: 88px;
+    height: 36px;
+    background-image: url('../image/leaveBtn.svg');
 }
 .modalInputs {
     width: 100%;
