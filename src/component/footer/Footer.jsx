@@ -16,17 +16,17 @@ const Footer = () => {
         <div onClick={openModel} className={s.callMeBack}></div>
         <div className={s.List}>Why Lux Trips</div>
         <div className={s.List}>Contact</div>
-        {isOpenModel &&(
+        {isOpenModel  &&(
         <div className={s.modalOverlay}>
           <div className={s.Modal}>
             <div className={s.modalTitle}>
               <div className={s.modalLogo}></div>
             </div>
             <div className={s.modalInputs}>
-              <div className={s.modalText}>Enter your name</div>
-              <input placeholder='Enter your name' type='text' className={s.Fio}/>
-              <div className={s.modalText}>Enter your phone number</div>
-              <input placeholder='+7 (999) 999-99-99' type='text' className={s.Num}/>
+              <div className={s.modalText}>Enter your Email</div>
+              <input placeholder='Email' type='email' className={s.Fio}/>
+              <div className={s.modalText}>Enter your password</div>
+              <input placeholder='Password' type='password' className={s.Num}/>
               <div onClick={closeModel} className={s.modalSend}></div>
             </div>
           </div>

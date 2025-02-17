@@ -11,7 +11,7 @@
 .callMeBack {
     width: 156px;
     height: 56px;
-    background-image: url('../image/button\ call\ me.png');
+    background-image: url('../image/button\ call\ me.svg');
     background-size: cover;
     border: none;
     background-color: transparent;
@@ -19,7 +19,7 @@
 .callMeBack:hover {
     transition: all 0.5s;
     cursor: pointer;
-    background-image: url('../image/button\ call\ me2.png');
+    background-image: url('../image/button\ call\ me2.svg');
     transform: scale(1.05);
 }
 .List {
@@ -33,6 +33,7 @@
     color:antiquewhite;
     transition: all 0.5s;
 }
+
 .modalOverlay {
     position: fixed;
     top: 0;
@@ -46,17 +47,19 @@
     z-index: 100;
 }
 .Modal {
-    width: 600px;
-    height: 600px;
-    background-color:antiquewhite;
+    width: 920px;
+    height: 540px;
+    background-image:url('../image/Contact.svg');
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    border-radius: 80px;
+    background-color: rgb(250, 235, 215, 0.6);
+    border-radius: 20px;
 }
 .modalTitle {
-    width: 550px;
+    width: 750px;
     height: 75px;
     display: flex;
     align-items: center;
@@ -67,6 +70,7 @@
     height: 64px;
     background-image: url('../image/logo.png'); 
     background-size: cover;
+    margin-top: 20px;
 }
 .modalInputs {
     width: 100%;
@@ -88,7 +92,7 @@
     height: 30px;
     border-radius: 20px;
     border:1px solid lightgray;
-    padding: 10px;   
+    padding: 10px;
 }
 .Fio:focus {
     border: 1px solid white;
@@ -109,11 +113,11 @@
 .modalSend {
     width: 156px;
     height: 56px;
-    background-image: url('../image/modalSend.svg');
+    background-image: url('../image/button\ call\ me.svg');
     margin-top: 20px;
 }
 .modalSend:hover {
     cursor: pointer;
     transition: 0.5s;
-    background-image: url('../image/modalSendAfter.svg');
+    background-image: url('../image/button\ call\ me2.svg');
 }

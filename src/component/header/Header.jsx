@@ -27,7 +27,6 @@ const Header = () => {
           <div className={s.Modal}>
             <div className={s.modalTitle}>
               <div className={s.modalLogo}></div>
-              <div className={s.modalClose} onClick={closeModel}></div>
             </div>
             <div className={s.modalInputs}>
               <div className={s.modalText}>Enter your Email</div>
