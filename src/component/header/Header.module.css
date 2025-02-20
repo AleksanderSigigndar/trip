@@ -49,11 +49,7 @@
     font-weight: 550;
     letter-spacing: 1.5px;
 }
-.buttLink{
-    text-decoration: none;
-    color: black;
-}
-.buttLink:hover {
+.Butt:hover {
     cursor: pointer;
     color:antiquewhite;
     transition: all 0.5s;

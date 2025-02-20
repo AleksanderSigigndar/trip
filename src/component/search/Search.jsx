@@ -1,6 +1,7 @@
 import React from 'react';
 import s from './Search.module.css';
 import Icon from '../image/icon_search.png';
+import { Link } from 'react-router-dom';
 
 const Search = () => {
   return (
@@ -29,7 +30,7 @@ const Search = () => {
             <div className={s.Name}>Travellers</div>
             <div className={s.List}>2 Persons</div>
         </div>
-        <button className={s.Find}><img src={Icon} className={s.Icon}/><span className={s.Span}>FIND</span></button>
+        <Link className={s.buttLink} to="/Luxury" className={s.Find}><img src={Icon} className={s.Icon}/><span className={s.Span}>FIND</span></Link>
       </div>
     </div>
   )
