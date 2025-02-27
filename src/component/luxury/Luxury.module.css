@@ -62,10 +62,12 @@
 .titleButt {
   width: 140px;
   height: 38px;
-  background-image: url("../image/view\ all.svg");
+  background-image: url("../image/view\ allAfter.svg");
 }
 .titleButt:hover {
-  background-image: url("../image/view\ allAfter.svg");
+  width: 142px;
+  height: 40px;
+  background-image: url("../image/view\ all.svg");
   cursor: pointer;
   transition: 0.5s;
 }
@@ -75,7 +77,7 @@
   width: 350px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: start;
   flex-direction: column;
 }
 .Text {
@@ -84,17 +86,7 @@
   font-size: 36px;
   color: white;
   font-family: "Forum", serif;
-}
-.newBtn {
-  width: 135px;
-  height: 257px;
-  background-image: url("../image/newBtn.png");
-  background-size: cover;
-  border-radius: 100%;
-}
-.newBtn:hover {
-  cursor: pointer;
-  transition: 1s;
+  margin-top:25px;
 }
 .winterPic {
   width: 350px;
@@ -102,19 +94,8 @@
   background-image: url("../image/winterPic.svg");
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: start;
   flex-direction: column;
-}
-.winterBtn {
-  width: 135px;
-  height: 257px;
-  background-image: url("../image/winterBtn.png");
-  background-size: cover;
-  border-radius: 100%;
-}
-.winterBtn:hover {
-  cursor: pointer;
-  transition: 1s;
 }
 .healthPic {
   width: 350px;
@@ -122,19 +103,8 @@
   background-image: url("../image/healthPic.svg");
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: start;
   flex-direction: column;
-}
-.healthBtn {
-  width: 135px;
-  height: 257px;
-  background-image: url("../image/healthBtn.png");
-  background-size: cover;
-  border-radius: 100%;
-}
-.healthBtn:hover {
-  cursor: pointer;
-  transition: 1s;
 }
 .extraordinaryPic {
   width: 350px;
@@ -142,19 +112,8 @@
   background-image: url("../image/extraordinaryPic.svg");
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: start;
   flex-direction: column;
-}
-.extraordinaryBtn {
-  width: 135px;
-  height: 257px;
-  background-image: url("../image/extraordinaryBtn.png");
-  background-size: cover;
-  border-radius: 100%;
-}
-.extraordinaryBtn:hover {
-  cursor: pointer;
-  transition: 1s;
 }
 .crowdPic {
   width: 350px;
@@ -162,17 +121,6 @@
   background-image: url("../image/crowdPic.svg");
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: start;
   flex-direction: column;
-}
-.crowdBtn {
-  width: 135px;
-  height: 257px;
-  background-image: url("../image/crowdBtn.png");
-  background-size: cover;
-  border-radius: 100%;
-}
-.crowdBtn:hover {
-  cursor: pointer;
-  transition: 1s;
 }

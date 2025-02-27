@@ -7,15 +7,14 @@ const Insp = () => {
       <div className={s.Container}>
         <div className={s.Title}>
           <div className={s.titleMain}>
-            Get weekly <br/> inspiration and<br/> expert advice
+          Получайте еженедельные<br/> вдохновление и<br/> советы экспертов
           </div>
           <div className={s.titleDiscribe}>
-            Sign up for our Weekly Newsletter dasda
+            Введите свою эл. почту, для получения рассылки
           </div>
         </div>
-        <input type="date" />
         <div className={s.Email}>
-          <input className={s.emailInput} placeholder='Email adress'></input>
+          <input className={s.emailInput} placeholder='Адресс электронной почты'></input>
           <div className={s.emailBtn}></div>
         </div>
       </div>

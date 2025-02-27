@@ -17,7 +17,8 @@
     flex-direction: column;
 }
 .Title {
-    width: 520px;
+    margin-top:20px;
+    width: 660px;
     height: 212px;
     display: flex;
     align-items: start;

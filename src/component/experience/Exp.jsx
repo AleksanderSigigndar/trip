@@ -6,17 +6,17 @@ const Exp = () => {
     return (
         <div className={s.Exp}>
             <div className={s.Back}></div>
-            <div className={s.mainText}>Top Rated Experiences</div>
+            <div className={s.mainText}>Лучшие впечатления</div>
             <div className={s.Contain}>
                 <div className={s.List}>
-                    <div className={s.World}>World</div>
-                    <div className={s.Africa}>Africa</div>
-                    <div className={s.Asia}>Asia</div>
-                    <div className={s.Europe}>Europe</div>
-                    <div className={s.northAmerica}>North America</div>
-                    <div className={s.southAmerica}>South America</div>
-                    <div className={s.Antarctica}>Antarctica</div>
-                    <div className={s.Australia}>Australia</div>
+                    <div className={s.World}>Мир</div>
+                    <div className={s.Africa}>Африка</div>
+                    <div className={s.Asia}>Азия</div>
+                    <div className={s.Europe}>Европа</div>
+                    <div className={s.northAmerica}>Сев. Америка</div>
+                    <div className={s.southAmerica}>Юж. Америка</div>
+                    <div className={s.Antarctica}>Антарктика</div>
+                    <div className={s.Australia}>Австралия</div>
                 </div>
                 <div className={s.Slik}>
                     <Card/>

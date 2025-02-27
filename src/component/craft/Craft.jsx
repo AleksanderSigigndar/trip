@@ -6,7 +6,7 @@ const Craft = () => {
     <div className={s.Craft}>
       <div className={s.Logo}></div>
       <div className={s.Title}>
-        <div className={s.titleText}>We craft and plan unique itineraries tailored to customers’ interests and with strong attention to detail.</div>
+        <div className={s.titleText}>Мы разрабатываем и планируем уникальные маршруты с учетом интересов клиентов и с особым вниманием к деталям.</div>
         <div className={s.titleBtn}></div>
       </div>
     </div>

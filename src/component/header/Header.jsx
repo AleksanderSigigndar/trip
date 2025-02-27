@@ -1,5 +1,6 @@
 import {React, useState} from 'react';
 import s from './Header.module.css';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [isOpenModel, setIsOpenModel] = useState(false);
@@ -13,7 +14,7 @@ const Header = () => {
     <div className={s.Header}>
       <div className={s.Logo}></div>
       <div className={s.Buttons}>
-        <div className={s.Butt}>Дом</div>
+        <div className={s.Butt}><Link className={s.buttLink} to="/">Дом</Link></div>
         <div className={s.Butt}>Люкс. пакеты</div>
         <div className={s.Butt}>Бронирование</div>
         <div className={s.Butt}>Почему мы?</div>
@@ -28,10 +29,10 @@ const Header = () => {
               <div className={s.modalLogo}></div>
             </div>
             <div className={s.modalInputs}>
-              <div className={s.modalText}>Enter your Email</div>
-              <input placeholder='Email' type='email' className={s.Fio}/>
-              <div className={s.modalText}>Enter your password</div>
-              <input placeholder='Password' type='password' className={s.Num}/>
+              <div className={s.modalText}>Введите адрес электронной почты</div>
+              <input placeholder='Адрес электронной почты' type='email' className={s.Fio}/>
+              <div className={s.modalText}>Введите пароль</div>
+              <input placeholder='Пароль' type='password' className={s.Num}/>
               <div onClick={closeModel} className={s.modalSend}></div>
             </div>
           </div>

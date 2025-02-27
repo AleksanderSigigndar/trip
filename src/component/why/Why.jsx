@@ -5,12 +5,12 @@ const Why = () => {
   return (
     <div className={s.Why}>
       <div className={s.Block}>
-        <div className={s.mainText}>Why Lux Trips</div>
-        <div className={s.Discribe}>As Travel Designer, we know the ins and outs of travel from who to work with, where to go, when to book, and which restaurant provides the most authentic cuisine. </div>
+        <div className={s.mainText}>Почему мы?</div>
+        <div className={s.Discribe}>Как туристический дизайнер, мы знаем все тонкости путешествий: с кем работать, куда идти, когда бронировать и в каком ресторане подают самую настоящую кухню. </div>
       </div>
       <div className={s.Block}>
-        <div className={s.Special}>Exclusive knowledge to provide the best of the best to clients</div>
-        <div className={s.Discribe}>Our area of expertise ranges from luxury resorts and villas/chalets holiday bookings, private yacht and jet charters, to exclusive tours and personalized journey planning. </div>
+        <div className={s.Special}>Эксклюзивные знания, позволяющие предоставлять клиентам лучшее</div>
+        <div className={s.Discribe}>Область нашей компетенции варьируется от бронирования роскошных курортов и вилл/шале на отдых, чартеров частных яхт и реактивных самолетов до эксклюзивных туров и индивидуального планирования путешествий.</div>
       </div>
     </div>
   )

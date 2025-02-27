@@ -15,14 +15,13 @@
     height: 50px;
     width: 1000px;
     text-align: center;
-    font-size: 25.76px;
+    font-size: 23px;
     font-weight: 400;
     text-transform: uppercase;
     color:#79655E;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 10px;
     font-family: "Forum", serif;
     font-style: normal; 
 }
@@ -95,7 +94,7 @@
 .Find {
     width: 126px;
     height: 70px;
-    border-radius: 20px;
+    border-radius: 75px;
     background-color: black;
     border:none;
     color: white;
@@ -109,7 +108,7 @@
 .Find:hover {
     cursor: pointer;
     transition: all 1s;
-    border-radius: 40px;
+    border-radius: 100px;
     background-color: gainsboro;
 }
 .Span {

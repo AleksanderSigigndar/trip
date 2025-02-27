@@ -7,65 +7,65 @@ const Card = () => {
 
    const CardComponents = [
     {
-      title: 'Austria',
+      title: 'Австрия',
       price: '1490',
-      place: 'Winter Park Ski',
+      place: 'Зимний курорт',
       rating: 'f',
       id: '1',
     },
     {
-      title: 'Peru',
+      title: 'Перу',
       price: '2300',
-      place: 'Machu Picchu',
+      place: 'Мачу Пиччу',
       rating: 'a',
       id: '2',
     }, 
     { 
-      title: 'Croatia', 
+      title: 'Кроатиа', 
       price: '4500', 
-      place: 'Hvar', 
+      place: 'Хвар', 
       rating: 'a', 
       id: '3' 
     }, 
     { 
-      title: 'Jordan', 
+      title: 'Россия', 
       price: '4450', 
-      place: 'Wadi Musa', 
+      place: 'Вади Муза', 
       rating: 'a', 
       id: '4' 
     }, 
     { 
-      title: 'Jordan', 
+      title: 'Россия', 
       price: '4450', 
-      place: 'Wadi Musa', 
+      place: 'Вади Муза', 
       rating: 'a', 
       id: '5' 
     }, 
     { 
-      title: 'Jordan', 
+      title: 'Россия', 
       price: '4450', 
-      place: 'Wadi Musa', 
+      place: 'Вади Муза', 
       rating: 'a', 
       id: '6' 
     }, 
     { 
-      title: 'Jordan', 
+      title: 'Россия', 
       price: '4450', 
-      place: 'Wadi Musa', 
+      place: 'Вади Муза', 
       rating: 'a', 
       id: '7' 
     }, 
     { 
-      title: 'Jordan', 
+      title: 'Россия', 
       price: '4450', 
-      place: 'Wadi Musa', 
+      place: 'Вади Муза', 
       rating: 'a', 
       id: '8' 
     }, 
     { 
-      title: 'Jordan', 
+      title: 'Россия', 
       price: '4450', 
-      place: 'Wadi Musa', 
+      place: 'Вади Муза', 
       rating: 'a', 
       id: '9' 
     }
@@ -103,7 +103,7 @@ const Card = () => {
           <div className='Place'><div className='Map'></div>{card.title}</div>
           <div className='Name'>{card.place}</div>
           <div className='Price'>
-            <div className='From'>From</div>
+            <div className='From'>От</div>
             <div className='Cost'>
               <div>
               € 

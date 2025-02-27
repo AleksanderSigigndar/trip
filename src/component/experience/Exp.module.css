@@ -51,9 +51,9 @@
 .World:hover{
     cursor: pointer;
     transition: 0.2s;
-    background-image: url('../image/WorldAfter.png');
+    background-image: url('../image/WorldAfter.svg');
     background-size: cover;
-    height: 36px;
+    height: 36px;   
     color: transparent;
 }
 .Africa {
@@ -67,7 +67,7 @@
 .Africa:hover{
     cursor: pointer;
     transition: 0.2s;
-    background-image: url('../image/AfricaAfter.png');
+    background-image: url('../image/AfricaAfter.svg');
     background-size: cover;
     height: 36px;
     color: transparent;
@@ -83,7 +83,7 @@
 .Asia:hover{
     cursor: pointer;
     transition: 0.2s;
-    background-image: url('../image/AsiaAfter.png');
+    background-image: url('../image/AsiaAfter.svg');
     background-size: cover;
     height: 36px;
     color: transparent;
@@ -99,7 +99,7 @@
 .Europe:hover{
     cursor: pointer;
     transition: 0.2s;
-    background-image: url('../image/EuropeAfter.png');
+    background-image: url('../image/EuropeAfter.svg');
     background-size: cover;
     height: 36px;
     color: transparent;
@@ -115,7 +115,7 @@
 .northAmerica:hover{
     cursor: pointer;
     transition: 0.2s;
-    background-image: url('../image/North\ AmericaAfter.png');
+    background-image: url('../image/North\ AmericaAfter.svg');
     background-size: cover;
     height: 36px;
     color: transparent;
@@ -147,7 +147,7 @@
 .Antarctica:hover{
     cursor: pointer;
     transition: 0.2s;
-    background-image: url('../image/AntarcticaAfter.png');
+    background-image: url('../image/AntarcticaAfter.svg');
     background-size: cover;
     height: 36px;
     color: transparent;
@@ -163,7 +163,7 @@
 .Australia:hover{
     cursor: pointer;
     transition: 0.2s;
-    background-image: url('../image/AustraliaAfter.png');
+    background-image: url('../image/AustraliaAfter.svg');
     background-size: cover;
     height: 36px;
     color: transparent;

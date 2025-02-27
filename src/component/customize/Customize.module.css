@@ -9,7 +9,7 @@
     justify-content: space-between;
 }
 .Title {
-    width: 403px;
+    width: 550px;
     height: 116px;
     font-size: 60px;
     font-family: "Forum", serif;
@@ -36,7 +36,7 @@
 }
 .Block {
     width: 321px;
-    height: 190px;
+    height: 150px;
     display: flex;
     align-items: start;
     justify-content: space-between;
@@ -45,7 +45,7 @@
 }
 .blockTitle {
     width: 253px;
-    height: 75px;
+    height: 100%;
     text-align: left;
     font-size: 36px;
 }
