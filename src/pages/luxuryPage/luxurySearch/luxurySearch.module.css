@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
 .Search {
     width: 1110px;
     height: 265px;
@@ -78,7 +79,7 @@
 }
 .Find {
     width: 126px;
-    height: 70px;
+    height: 40px;
     border-radius: 20px;
     background-color: black;
     border:none;
@@ -91,9 +92,18 @@
 }
 .Find:hover {
     cursor: pointer;
-    transition: all 1s;
+    transition: all 0.3s;
     border-radius: 40px;
-    background-color: gainsboro;
+    background-color: gray;
+}
+.Find:active {
+    cursor: pointer;
+    background-color: black;
+    transform: scale(1.05);
+}
+.Icon {
+    width: 19px;
+    height: 19px;
 }
 .Span {
     margin-left: 10px;
@@ -102,6 +112,8 @@
 }
 .Pick {
     width: 322px;
-    height: 26px;
-    border: 1px solid black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

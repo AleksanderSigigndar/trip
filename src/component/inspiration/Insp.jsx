@@ -14,7 +14,7 @@ const Insp = () => {
           </div>
         </div>
         <div className={s.Email}>
-          <input className={s.emailInput} placeholder='Адресс электронной почты'></input>
+          <input className={s.emailInput} placeholder='Адрес электронной почты'></input>
           <div className={s.emailBtn}></div>
         </div>
       </div>

@@ -1,32 +1,29 @@
 import React from "react";
+import Icon from '../../../component/image/icon_search.png';
+import SearchComponent from '../luxuryList/luxuryList.jsx';
 import s from "./luxurySearch.module.css";
-
 const Search = () => {
   return (
     <div className={s.Search}>
-      <div className={s.Title}>Luxury packages</div>
+      <div className={s.Title}>Люксовые пакеты</div>
       <div className={s.Main}>
         <div className={s.Info}>
           <div className={s.Tours}>
-            <div className={s.Name}>Luxury Tours</div>
-            <div className={s.List}>Romantic Winter Destinations</div>
+            <div className={s.Name}>Туры люкс</div>
+            <div className={s.List}><SearchComponent/></div>
           </div>
           <div className={s.When}>
-            <div className={s.Name}>When</div>
-            <div className={s.List}>14 Dec 2022 - 28 Dec 2022</div>
+            <div className={s.Name}>Когда</div>
+            <div className={s.List}>14 Дек. 2022 - 28 Дек. 2022</div>
           </div>
           <div className={s.Type}>
-            <div className={s.Name}>Travellers</div>
-            <div className={s.List}>2 persons</div>
+            <div className={s.Name}>Ко-во чел.</div>
+            <div className={s.List}>2 человека</div>
           </div>
           <div className={s.Pick}>
-            <div className={s.pickChoice}>
-              <div className=""></div>
-              <div className=""></div>
-            </div>
-            <div className={s.pickChoice}>
-              <div className=""></div>
-              <div className=""></div>
+          <div className={s.Find}>
+            <img src={Icon} className={s.Icon}/>
+            <span className={s.Span}>Поиск</span>
             </div>
           </div>
         </div>
