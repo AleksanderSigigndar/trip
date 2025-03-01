@@ -143,6 +143,24 @@
     border: 1px solid white;
     outline: none;
 }
+.Reg {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Tap {
+    color: black !important;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.Tap:hover {
+    cursor: pointer;
+    transition: 1s;
+    letter-spacing: 2px;
+}
 .modalSend {
     width: 156px;
     height: 56px;

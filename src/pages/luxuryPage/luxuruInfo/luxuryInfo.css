@@ -26,8 +26,13 @@
 .Card:hover {
     cursor: pointer;
     transform: scale(1.05);
-    transition: all 0.8s;
+    transition: all 0.4s;
     box-shadow: 5px 5px 5px black;
+}
+.Card:active {
+    cursor: pointer;
+    transition: all 0.4s;
+    transform: scale(1.00);
 }
 .C1R1 {
     background-image: url('../../../component/image/winterCard.png');   

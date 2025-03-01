@@ -17,7 +17,7 @@ const Search = () => {
             <div className={s.List}>14 Дек. 2022 - 28 Дек. 2022</div>
           </div>
           <div className={s.Type}>
-            <div className={s.Name}>Ко-во чел.</div>
+            <div className={s.Name}>Кол-во чел.</div>
             <div className={s.List}>2 человека</div>
           </div>
           <div className={s.Pick}>

@@ -18,3 +18,9 @@
     flex-direction: column;
     align-items: center;
   }
+  .Insp {
+    margin-top: -300px;
+  }
+  .Foot {
+    margin-top: 230px;
+  }
