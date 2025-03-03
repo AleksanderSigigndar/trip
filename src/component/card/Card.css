@@ -227,6 +227,12 @@
     cursor: pointer;
     transition: 0.5s;
     box-shadow: 5px 5px 5px black;
+    transform: scale(1.05);
+}
+.Arrow:active {
+    transition: all 0.5s;
+    cursor: pointer;
+    transform: scale(1.00);
 }
 .arrowReverse {
     width: 106px;
@@ -246,4 +252,10 @@
     cursor: pointer;
     transition: 0.5s;
     box-shadow: 5px 5px 5px black;
+    transform: scale(1.05);
+}
+.arrowReverse:active {
+    transition: all 0.5s;
+    cursor: pointer;
+    transform: scale(1.00);
 }

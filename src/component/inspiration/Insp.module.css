@@ -68,3 +68,9 @@
     cursor: pointer;
     transform: scale(1.05);
 }
+.emailBtn:active{
+    background-image: url('../image/inspBtn.svg');
+    transition: .5s;
+    cursor: pointer;
+    transform: scale(1.00);
+}

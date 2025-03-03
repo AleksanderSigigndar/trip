@@ -65,3 +65,9 @@
     background-image: url('../image/customizeBtnAfter.svg');
     transform: scale(1.05);
 }
+.Btn:active {
+    cursor: pointer;
+    transition: .5s;
+    background-image: url('../image/customizeBtn.svg');
+    transform: scale(1.00);
+}

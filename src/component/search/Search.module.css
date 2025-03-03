@@ -107,9 +107,15 @@
 }
 .Find:hover {
     cursor: pointer;
-    transition: all 1s;
+    transition: all .5s;
     border-radius: 100px;
     background-color: gainsboro;
+    transform: scale(1.05);
+}
+.Find:active {
+    transition: all 0.5s;
+    cursor: pointer;
+    transform: scale(1.00);
 }
 .Span {
     margin-left: 10px;
