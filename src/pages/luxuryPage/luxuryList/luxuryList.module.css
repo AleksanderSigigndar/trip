@@ -1,2 +1,19 @@
-.List {
+.Search {
+    border-radius: 20px;
+    color: darkgoldenrod;
+}
+.Option {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.Search:active {
+    transition: 2s;
+}
+.Search:focus {
+    border: 1px solid black;
+    outline: none;
+    transition: 2s;
+}
+.Search:hover {
+    cursor: pointer;
 }

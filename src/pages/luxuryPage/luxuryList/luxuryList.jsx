@@ -28,10 +28,10 @@ const SearchComponent = () => {
 
   return (
     <div className={s.List}>
-      <select value={selectedOption} onChange={handleSelectChange}>
+      <select required='3' value={selectedOption} onChange={handleSelectChange} className={s.Search}>
         <option value="">Выберите тур</option>
         {options.map((option, index) => (
-          <option key={index} value={option}>{option}</option>
+          <option classname={s.Option} key={index} value={option}>{option}</option>
         ))}
       </select>
       <ul>
