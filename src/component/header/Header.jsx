@@ -28,7 +28,7 @@ const Header = () => {
         <div className={s.Butt}>Бронирование</div>
         <div className={s.Butt}>Почему мы?</div>
         <div className={s.Butt}>Контакты</div>
-        <div className={s.Butt}>Личный кабинет</div>
+        <div className={s.Butt}><Link className={s.buttLink} to="/Lk">Личный кабинет</Link></div>
       </div>
       <button onClick={openModel} className={s.callMeBack}></button>
       {isOpenModel ? (

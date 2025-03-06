@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+.lkContent {
+    width: 955px;
+    height: 766px;
+    margin-top: 108px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.Title {
+    width: 955px;
+    height: 71px;
+    font-size: 60px;
+    font-family: "Forum", serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Main {
+    width: 862px;
+    height: 544px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainBlock {
+    width: 661px;
+    height: 450px;
+    border: 1px solid black;
+}

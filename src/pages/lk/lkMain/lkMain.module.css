@@ -1,0 +1,19 @@
+.Main {
+    width: 100%;
+    height: 1503px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+.Container {
+    width: 1440px;
+    height: 100%;
+    background-image: url('../../img/lk.svg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;    
+}
+.Foot {
+    margin-top: 100px;
+}
