@@ -9,13 +9,13 @@ const lkContent = () => {
         </div>
         <div className={s.Main}>
             <div className={s.mainBlock}>
-                <div className=""></div>
-                <div className=""></div>
-                <div className=""></div>
-                <div className=""></div>
-                <div className=""></div>
-                <div className=""></div>
-                <div className=""></div>
+                <div className={s.Row}></div>
+                <div className={s.Row}></div>
+                <div className={s.Row}></div>
+                <div className={s.Row}></div>
+                <div className={s.Row}></div>
+                <div className={s.Row}></div>
+                <div className={s.Row}></div>
             </div>
         </div>
     </div>

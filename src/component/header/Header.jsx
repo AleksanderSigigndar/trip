@@ -24,10 +24,7 @@ const Header = () => {
       <div className={s.Logo}></div>
       <div className={s.Buttons}>
         <div className={s.Butt}><Link className={s.buttLink} to="/">Дом</Link></div>
-        <div className={s.Butt}>Люкс. пакеты</div>
-        <div className={s.Butt}>Бронирование</div>
-        <div className={s.Butt}>Почему мы?</div>
-        <div className={s.Butt}>Контакты</div>
+        <div className={s.Butt}><Link className={s.buttLink} to="/Luxury">Люкс. пакеты</Link></div>
         <div className={s.Butt}><Link className={s.buttLink} to="/Lk">Личный кабинет</Link></div>
       </div>
       <button onClick={openModel} className={s.callMeBack}></button>
