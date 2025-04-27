@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
 .lkContent {
     width: 955px;
     height: 766px;
@@ -29,8 +30,49 @@
 .mainBlock {
     width: 661px;
     height: 450px;
-    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 .Row {
-    
+    width: 663px;
+    height: 48px;
+    border-bottom:1px solid #E2D3CE;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+.Order {
+    width: 150px;
+    height: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: top;
+    font-family: "Manrope", serif;
+    font-size: 18px;
+    color: #7A7A7A;
+}
+.Text  {
+    width: 479px;
+    height: 20px;
+    padding-left: 120px;
+    display: flex;
+    justify-content: left;
+    align-items: top;
+    font-family: "Manrope", serif;
+    font-size: 18px;
+}
+.Edit {
+    width: 34px;
+    height: 20px;
+    display: flex;
+    justify-content: right;
+    align-items: top;
+    font-family: "Manrope", serif;
+    font-size: 18px;
+    color: #4C64A1;
+}
+.Edit:hover{
+    cursor: pointer;
 }
