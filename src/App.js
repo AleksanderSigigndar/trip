@@ -19,7 +19,7 @@ function App() {
         <Header />
         <Search/>
         </div>
-        <div className='Others'> 
+        <div className='Others'>
           <Exp/>
           <Luxury />
           <Book/>

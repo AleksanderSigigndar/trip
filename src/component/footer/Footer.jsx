@@ -21,10 +21,8 @@ const Footer = () => {
   return (
     <div className={s.Footer}>
         <div className={s.List}>Люкс. пакеты</div>
-        <div className={s.List}>Бронирование</div>
         <div onClick={openModel} className={s.callMeBack}></div>
-        <div className={s.List}>Почему мы?</div>
-        <div className={s.List}>Контакт</div>
+        <div className={s.List}>Личный кабинет</div>
         {isOpenModel ? (
         <div className={s.modalOverlay}>
           <div className={s.Modal}>

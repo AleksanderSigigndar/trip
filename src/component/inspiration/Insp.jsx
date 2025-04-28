@@ -1,7 +1,16 @@
-import React from "react";
+import {React, useState} from "react";
 import s from "./Insp.module.css";
 
 const Insp = () => {
+  const [inputEmail, setInputEmail] = useState('');
+
+  const handleInputEmail = (e) => {
+    setInputEmail(e.target.value);
+  };
+  
+  const handleClearClick = () => {
+    setInputEmail(''); // Очищаем значение input
+  };
   return (
     <div className={s.Insp}>
       <div className={s.Container}>
@@ -14,8 +23,8 @@ const Insp = () => {
           </div>
         </div>
         <div className={s.Email}>
-          <input className={s.emailInput} placeholder='Адрес электронной почты'></input>
-          <div className={s.emailBtn}></div>
+          <input className={s.emailInput} value={inputEmail} placeholder='Адрес электронной почты' onChange={handleInputEmail}></input>
+          <div className={s.emailBtn} onClick={handleClearClick}></div>
         </div>
       </div>
     </div>

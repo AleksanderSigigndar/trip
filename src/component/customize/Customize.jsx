@@ -1,4 +1,5 @@
 import React from "react";
+import { HashLink } from 'react-router-hash-link';
 import s from "./Customize.module.css";
 
 const Customize = () => {
@@ -22,7 +23,7 @@ const Customize = () => {
           </div>
         </div>
       </div>
-      <div className={s.Btn}></div>
+      <HashLink to="/#section1"><div className={s.Btn}></div></HashLink>
     </div>
   );
 };

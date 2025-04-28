@@ -1,4 +1,5 @@
 import React from 'react'
+import ScrollToTop from '../../../useScrollToTop/useScrollToTop'
 import Header from '../../../component/header/Header'
 import Search from '../luxurySearch/luxurySearch'
 import Info from '../luxuruInfo/luxuryInfo'
@@ -7,6 +8,7 @@ import Footer from '../../../component/footer/Footer'
 import s from './luxuryMain.module.css'
 
 const luxuryMain = () => {
+  ScrollToTop();
   return (
     <div className={s.Main}>
       <div className={s.Container}>
